@@ -1,7 +1,7 @@
 # Projeto Pokédex 
 
 ## Sobre:
-Projeto desenvolvido no curso de Web Full Stack da Labenu, com intuíto da funcionalidade de um carrinho, onde pode ser adicionado e removido todos os pokémons e, acessar o seus detalhes e poderes de luta. Pokedex desenvolvida com [PokéAPI](https://pokeapi.co/) .
+Projeto desenvolvido no curso de Web Full Stack da Labenu, com intuíto na funcionalidade de um carrinho, onde pode ser adicionado e removido todos os pokémons e, acessar o seus detalhes e poderes de luta. Pokedex desenvolvida com [PokéAPI](https://pokeapi.co/) .
 #
 ## Tecnologias usadas: 
 
