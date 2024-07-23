@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import PokemonCard from "../../components/PokemonCard/PokemonCard";
-import { PokemonListContainer } from "./styled";
+import { PokemonListContainer, Titulo, SectionPokemons } from "./styled";
 import { getAllPoke } from "../../API/requests";
+import { GlobalStateContext } from "../../Global/GlobalStateContext";
 
 
-const PokemonListPage = ({ pokedex, setPokedex, adcionaPokemon }) => {
+const PokemonListPage = () => {
     const [pokemons, setPokemons] = useState([])
+    const { pokedex, setPokedex, adcionaPokemon} = useContext(GlobalStateContext)
 
     useEffect(() => {
         getAllPoke(setPokemons)
@@ -18,8 +20,9 @@ const PokemonListPage = ({ pokedex, setPokedex, adcionaPokemon }) => {
 
     return (
         <PokemonListContainer>
-            {
-                filtrarPokes.map((poke) => {
+        <Titulo> Todos Pokémons</Titulo>
+        <SectionPokemons>
+        {filtrarPokes.map((poke) => {
                     return (
                         <PokemonCard
                             key={poke.id}
@@ -31,6 +34,8 @@ const PokemonListPage = ({ pokedex, setPokedex, adcionaPokemon }) => {
                     )
                 })
             }
+        </SectionPokemons>
+           
         </PokemonListContainer>
     )
 
