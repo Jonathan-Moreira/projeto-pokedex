@@ -10,7 +10,7 @@ Projeto desenvolvido no curso de Web Full Stack, com intuíto na funcionalidade 
 <br><li>Javascript
 <br><li>API
 <br><li>React.js
-<br><li>Componente estilizado
+<br><li>Styled Components
 <br><li>Estado Global
 <br><li>Axios
 <br><li>Hooks
