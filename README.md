@@ -3,7 +3,7 @@
 ## Sobre:
 Projeto desenvolvido no curso de Web Full Stack, com intuíto na funcionalidade de um carrinho, onde pode ser adicionado e removido todos os pokémons e, acessar o seus detalhes e poderes de luta. Pokedex desenvolvida com [PokéAPI](https://pokeapi.co/) .
 #
-## Tecnologias usadas: 
+## 👨🏾‍💻Tecnologias usadas: 
 
 <li>CSS
 <br><li>HTML
@@ -19,7 +19,7 @@ Projeto desenvolvido no curso de Web Full Stack, com intuíto na funcionalidade 
 
 #
 
-## Requisitos de funcionalidades:
+## 📍Requisitos de funcionalidades:
 
 <br><li>Página Home todos os Pokémons e botão direcionável para a página Pokédex - Lista de Pokemons.
 
@@ -34,7 +34,7 @@ Projeto desenvolvido no curso de Web Full Stack, com intuíto na funcionalidade 
 <br><li>Criar funcionalidade de remover o Pokémon da página Pokédex - Lista de Pokemonsfazendo retornar para a páginaHome
 #
 
-## Como rodar o projeto:
+## 🔄Como rodar o projeto:
 <div style="border: 1px solid black; padding: 10px; width: fit-content;">
   Clone do projeto:<br>
   https://github.com/Jonathan-Moreira/projeto-pokedex.git
